@@ -1,8 +1,8 @@
 ---
 
 wireguard_packages:
-  - wireguard-tools
-  - wireguard-virt
+- wireguard-tools@community
+- wireguard-virt@community
 
 wireguard_conf_path: "/etc/wireguard"
 wireguard_wg_quick_service_prefix: "wg-quick."
